@@ -1,0 +1,43 @@
+﻿<Window x:Class="NTFSStruct.fmFileConcept"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="fmFileConcept" Height="700" Width="700" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Loaded="Window_Loaded" Closing="Window_Closing">
+    <Grid>
+        <Label Content="Понятие и термины NTFS" HorizontalAlignment="Left" Margin="28,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.473,0.499" FontSize="16" FontWeight="Bold"/>
+        <TextBlock x:Name="tbText" HorizontalAlignment="Left" Margin="28,46,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Image x:Name="imFileRef" HorizontalAlignment="Left" Height="49" Margin="28,124,0,0" VerticalAlignment="Top" Width="638"/>
+        <Image x:Name="im" HorizontalAlignment="Left" Height="49" Margin="263,124,0,0" VerticalAlignment="Top" Width="394" MouseEnter="im_MouseEnter" MouseLeave="im_MouseLeave" ToolTip="Номер файла"/>
+        <Image x:Name="im2" HorizontalAlignment="Left" Height="49" Margin="41,124,0,0" VerticalAlignment="Top" Width="222" MouseEnter="Image_MouseEnter" MouseLeave="im2_MouseLeave"  ToolTip="Номер последовательности"/>
+        <TextBlock x:Name="tbText2" HorizontalAlignment="Left" Margin="28,178,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Image x:Name="imMftRecord" HorizontalAlignment="Left" Height="375" Margin="28,268,0,0" VerticalAlignment="Top" Width="629"/>
+        <Image x:Name="imMTFSelect1" HorizontalAlignment="Left" Height="74" Margin="107,587,0,0" VerticalAlignment="Top" Width="196" MouseEnter="imMTFSelect1_MouseEnter" MouseLeave="imMTFSelect1_MouseLeave">
+            <ToolTipService.ToolTip>
+                <TextBlock MaxWidth="250" 
+                   Text="Атрибуты файла (только чтение, чтение/запись, др), отметки времени, включая время создания или последней модификации, число катологов, ссылающихся на данный файл, или hard disk count " 
+                   FontFamily="Georgia" FontSize="14" TextWrapping="Wrap"/>
+            </ToolTipService.ToolTip> </Image>
+        <Image x:Name="imMtfSelect2" HorizontalAlignment="Left" Height="74" Margin="281,587,0,0" VerticalAlignment="Top" Width="117" MouseEnter="imMtfSelect2_MouseEnter" MouseLeave="imMtfSelect2_MouseLeave">
+            <ToolTipService.ToolTip>
+                <TextBlock MaxWidth="250" 
+                   Text="Имя файла в символах. Файл может иметь несколько атрибутов - имен файла, что имеет место при наличии жесткой связи POSIX к данному файлу или если у файла есть автоматически сгенерированное 'короткое имя' для ранних ОС" 
+                   FontFamily="Georgia" FontSize="14" TextWrapping="Wrap"/>
+            </ToolTipService.ToolTip>
+        </Image>
+
+        <Image x:Name="imMTFSelect3" HorizontalAlignment="Left" Height="74" Margin="403,587,0,0" VerticalAlignment="Top" Width="117" MouseEnter="imMTFSelect3_MouseEnter" MouseLeave="imMTFSelect3_MouseLeave">
+            <ToolTipService.ToolTip>
+                <TextBlock MaxWidth="250" 
+                   Text="Структура данных защиты предохранявшая файл от несанкционированного доступа. Атрибут- дескриптор защиты определяет кто владелец файла и кто имеет доступ к нему." 
+                   FontFamily="Georgia" FontSize="14" TextWrapping="Wrap"/>
+            </ToolTipService.ToolTip>
+        </Image>
+        <Image x:Name="imMTFSSelect4" HorizontalAlignment="Left" Height="74" Margin="525,587,0,0" VerticalAlignment="Top" Width="122" MouseEnter="imMTFSSelect3_MouseEnter" MouseLeave="imMTFSSelect3_MouseLeave">
+            <ToolTipService.ToolTip>
+                <TextBlock MaxWidth="250" 
+                   Text="Содержимое файла. В NTFS у файла по умолчанию есть один безымянный атрибут данных, и он может иметь дополнительные именованные атрибуты данных (таким образом у файла может быть несколько потоков данных). У каталога нет атрибута данных по умолчанию, но он может иметь не обязательные именованные атрибуты данных. " 
+                   FontFamily="Georgia" FontSize="14" TextWrapping="Wrap"/>
+            </ToolTipService.ToolTip>
+        </Image>
+
+    </Grid>
+</Window>

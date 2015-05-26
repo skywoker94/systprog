@@ -1,0 +1,13 @@
+﻿<Window x:Class="NTFSStruct.fmModelNTFS"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="fmModelNTFS" Height="428.358" Width="870.15" MouseLeftButtonDown="Window_MouseLeftButtonDown" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Closing="Window_Closing">
+    <Grid>
+        <Label Content="Модели NTFS" HorizontalAlignment="Left" Margin="25,27,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" RenderTransformOrigin="0.473,0.57"/>
+        <TextBlock x:Name="tbText" HorizontalAlignment="Left" Margin="25,89,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="lbDriverModel" Content="1) Модель драйвера" HorizontalAlignment="Left" Margin="89,249,0,0" VerticalAlignment="Top" FontSize="16" RenderTransformOrigin="0.386,2.508" MouseEnter="lbDriverModel_MouseEnter" MouseLeave="lbDriverModel_MouseLeave" Cursor="Hand" MouseLeftButtonDown="lbDriverModel_MouseLeftButtonDown"/>
+        <Label x:Name="lbDataBaseModel" Content="2) Модель базы данных" HorizontalAlignment="Left" Margin="89,285,0,0" VerticalAlignment="Top" FontSize="16" RenderTransformOrigin="0.386,2.508" MouseEnter="lbDataBaseModel_MouseEnter" MouseLeave="lbDataBaseModel_MouseLeave" Cursor="Hand" MouseLeftButtonDown="lbDataBaseModel_MouseLeftButtonDown"/>
+        <Label x:Name="lbOOPModel" Content="3) Объектная модель" HorizontalAlignment="Left" Margin="89,321,0,0" VerticalAlignment="Top" FontSize="16" RenderTransformOrigin="0.386,2.508" MouseEnter="lbOOPModel_MouseEnter" MouseLeave="lbOOPModel_MouseLeave" Cursor="Hand" MouseLeftButtonDown="lbOOPModel_MouseLeftButtonDown"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,5 @@
+D:\Универ\Системное программирование\Второй семестр\Курсач\Программа\NTFSStruct\Resourse\bin\Debug\Resourse.dll
+D:\Универ\Системное программирование\Второй семестр\Курсач\Программа\NTFSStruct\Resourse\bin\Debug\Resourse.pdb
+D:\Универ\Системное программирование\Второй семестр\Курсач\Программа\NTFSStruct\Resourse\obj\Debug\Resourse.csprojResolveAssemblyReference.cache
+D:\Универ\Системное программирование\Второй семестр\Курсач\Программа\NTFSStruct\Resourse\obj\Debug\Resourse.dll
+D:\Универ\Системное программирование\Второй семестр\Курсач\Программа\NTFSStruct\Resourse\obj\Debug\Resourse.pdb
