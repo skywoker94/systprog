@@ -1,8 +1,14 @@
 ﻿<Window x:Class="NTFSStruct.fmStructCatalog"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="fmStructCatalog" Height="300" Width="300">
+        Title="fmStructCatalog" Height="700" Width="700" ResizeMode="NoResize" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" Closing="Window_Closing">
     <Grid>
-        
+
+        <Label Content="Струкутура на диске(большие файлы, катологи)" HorizontalAlignment="Left" Margin="25,25,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <Image x:Name="imSmallCatalog" HorizontalAlignment="Left" Height="181" Margin="25,71,0,0" VerticalAlignment="Top" Width="659" MouseEnter="imSmallCatalog_MouseEnter" MouseLeave="imSmallCatalog_MouseLeave" ToolTip="Файловая запись MFT для небольшего каталога"/>
+        <Image x:Name="imBigCatalog" HorizontalAlignment="Left" Height="196" Margin="25,235,0,0" VerticalAlignment="Top" Width="659" MouseEnter="imBigCatalog_MouseEnter" MouseLeave="imBigCatalog_MouseLeave" ToolTip="Файловая запись для большего католога с нерезидентным индексом имен файлов"/>
+        <Image x:Name="imIndexBuf" Height="65" Margin="201,366,52,0" VerticalAlignment="Top" MouseEnter="imIndexBuf_MouseEnter" MouseLeave="imIndexBuf_MouseLeave" Stretch="Fill" ToolTip="Индексные буфера(index bufers)"/>
+        <Image x:Name="imVirt" HorizontalAlignment="Left" Height="215" Margin="25,446,0,0" VerticalAlignment="Top" Width="659" MouseEnter="Image_MouseEnter" MouseLeave="imVirt_MouseLeave"/>
+
     </Grid>
 </Window>

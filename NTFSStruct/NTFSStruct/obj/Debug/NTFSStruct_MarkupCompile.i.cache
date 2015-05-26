@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\Универ\Системное программирование\Второй семестр\Курсач\Программа\NTFSStruct\NTFSStruct\obj\Debug\
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\
 NTFSStruct
 none
 false
 DEBUG;TRACE
-D:\Универ\Системное программирование\Второй семестр\Курсач\Программа\NTFSStruct\NTFSStruct\App.xaml
+D:\git\first\NTFSStruct\NTFSStruct\App.xaml
 13-2034996935
 
 221384363508
-13-432332313
+13-764969824
 fmConception.xaml;fmDiskStruct.xaml;fmDriverModel.xaml;fmDriverModel2.xaml;fmFileConcept.xaml;fmIntroduction.xaml;fmModelDB.xaml;fmModelNTFS.xaml;fmMTFExample.xaml;fmObjectModel.xaml;fmStructCatalog.xaml;fmStructNTFS.xaml;MainWindow.xaml;
 
 False

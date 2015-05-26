@@ -37,3 +37,42 @@ D:\Универ\Системное программирование\Второй
 D:\Универ\Системное программирование\Второй семестр\Курсач\Программа\NTFSStruct\NTFSStruct\obj\Debug\fmDiskStruct.g.cs
 D:\Универ\Системное программирование\Второй семестр\Курсач\Программа\NTFSStruct\NTFSStruct\obj\Debug\fmStructCatalog.baml
 D:\Универ\Системное программирование\Второй семестр\Курсач\Программа\NTFSStruct\NTFSStruct\obj\Debug\fmStructCatalog.g.cs
+D:\git\first\NTFSStruct\NTFSStruct\bin\Debug\NTFSStruct.exe.config
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\NTFSStruct.exe
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\NTFSStruct.pdb
+D:\git\first\NTFSStruct\NTFSStruct\bin\Debug\NTFSStruct.exe
+D:\git\first\NTFSStruct\NTFSStruct\bin\Debug\NTFSStruct.pdb
+D:\git\first\NTFSStruct\NTFSStruct\bin\Debug\Resourse.dll
+D:\git\first\NTFSStruct\NTFSStruct\bin\Debug\Resourse.pdb
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\NTFSStruct.csprojResolveAssemblyReference.cache
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\fmConception.baml
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\fmDiskStruct.baml
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\fmDriverModel.baml
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\fmDriverModel2.baml
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\fmFileConcept.baml
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\fmIntroduction.baml
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\fmModelDB.baml
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\fmModelNTFS.baml
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\fmMTFExample.baml
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\fmObjectModel.baml
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\fmStructCatalog.baml
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\fmStructNTFS.baml
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\MainWindow.baml
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\fmConception.g.cs
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\fmDiskStruct.g.cs
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\fmDriverModel.g.cs
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\fmDriverModel2.g.cs
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\fmFileConcept.g.cs
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\fmIntroduction.g.cs
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\fmModelDB.g.cs
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\fmModelNTFS.g.cs
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\fmMTFExample.g.cs
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\fmObjectModel.g.cs
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\fmStructCatalog.g.cs
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\fmStructNTFS.g.cs
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\MainWindow.g.cs
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\App.g.cs
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\NTFSStruct_MarkupCompile.cache
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\NTFSStruct.g.resources
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\NTFSStruct.Properties.Resources.resources
+D:\git\first\NTFSStruct\NTFSStruct\obj\Debug\NTFSStruct.csproj.GenerateResource.Cache
