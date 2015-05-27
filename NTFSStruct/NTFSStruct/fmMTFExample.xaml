@@ -1,7 +1,7 @@
 ﻿<Window x:Class="NTFSStruct.fmMTFExample"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="fmMTFExample" Height="700" Width="700" Loaded="Window_Loaded" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Closed="Window_Closed" Closing="Window_Closing">
+        Title="" Height="700" Width="700" Loaded="Window_Loaded" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Closed="Window_Closed" Closing="Window_Closing">
     <Grid>
         <Label Content="Таблица MTF" HorizontalAlignment="Left" Margin="60,33,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
         <Image x:Name="imMTF" HorizontalAlignment="Left" Height="528" Margin="22,104,0,0" VerticalAlignment="Top" Width="648" MouseLeftButtonDown="imMTF_MouseLeftButtonDown" Cursor="Hand"/>

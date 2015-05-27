@@ -1,7 +1,7 @@
 ﻿<Window x:Class="NTFSStruct.fmObjectModel"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="fmObjectModel" Height="730" Width="1100" ResizeMode="NoResize" Loaded="Window_Loaded_1" Closing="Window_Closing" WindowStartupLocation="CenterScreen">
+        Title="" Height="730" Width="1100" ResizeMode="NoResize" Loaded="Window_Loaded_1" Closing="Window_Closing" WindowStartupLocation="CenterScreen">
     <Grid>
         <Label Content="Объектная модель" HorizontalAlignment="Left" Margin="30,22,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
         <TextBlock x:Name="tbText" HorizontalAlignment="Left" Margin="30,61,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>

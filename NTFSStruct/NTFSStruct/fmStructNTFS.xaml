@@ -1,13 +1,13 @@
 ﻿<Window x:Class="NTFSStruct.fmStructNTFS"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="fmStructNTFS" Height="388.163" Width="575.51" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Closing="Window_Closing">
+        Title="" Height="216.521" Width="469.54" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Closing="Window_Closing">
     <Grid>
         <Label Content="Структура фаловой системы" HorizontalAlignment="Left" Margin="47,10,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
         <Label x:Name="lbConception" Content="Понятие и термины NTFS
 " HorizontalAlignment="Left" Margin="53,53,0,0" VerticalAlignment="Top" FontSize="16" MouseEnter="lbConception_MouseEnter" MouseLeave="lbConception_MouseLeave" MouseLeftButtonDown="lbConception_MouseLeftButtonDown"/>
         <Label x:Name="lbStruct" Content="Структура на диске" HorizontalAlignment="Left" Margin="53,84,0,0" VerticalAlignment="Top" FontSize="16" MouseEnter="lbStruct_MouseEnter" MouseLeave="lbStruct_MouseLeave" MouseLeftButtonDown="lbStruct_MouseLeftButtonDown"/>
-        <Label x:Name="lbCatalogStruct" Content="Структура на диске(Каталоги и больште файлы)" HorizontalAlignment="Left" Margin="53,120,0,0" VerticalAlignment="Top" FontSize="16" MouseEnter="lbCatalogStruct_MouseEnter" MouseLeave="lbCatalogStruct_MouseLeave" MouseLeftButtonDown="lbCatalogStruct_MouseLeftButtonDown"/>
+        <Label x:Name="lbCatalogStruct" Content="Структура на диске (Каталоги и большие файлы)" HorizontalAlignment="Left" Margin="53,120,0,0" VerticalAlignment="Top" FontSize="16" MouseEnter="lbCatalogStruct_MouseEnter" MouseLeave="lbCatalogStruct_MouseLeave" MouseLeftButtonDown="lbCatalogStruct_MouseLeftButtonDown"/>
 
     </Grid>
 </Window>

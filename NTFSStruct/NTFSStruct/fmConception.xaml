@@ -1,14 +1,14 @@
 ﻿<Window x:Class="NTFSStruct.fmConception"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="fmConception" Height="637.551" Width="700" ResizeMode="NoResize" Loaded="Window_Loaded" Closing="Window_Closing" WindowStartupLocation="CenterScreen">
+        Title="" Height="637.551" Width="700" ResizeMode="NoResize" Loaded="Window_Loaded" Closing="Window_Closing" WindowStartupLocation="CenterScreen">
     <Grid>
         <Label Content="Понятие и термины NTFS" HorizontalAlignment="Left" Margin="28,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.473,0.499" FontSize="16" FontWeight="Bold"/>
         <TextBlock x:Name="tbText" HorizontalAlignment="Left" Margin="28,46,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="14"/>
         <Image x:Name="imDiscConf" HorizontalAlignment="Left" Height="131" Margin="203,128,0,0" VerticalAlignment="Top" Width="276" Loaded="imDiscConf_Loaded" MouseEnter="imDiscConf_MouseEnter" MouseLeave="imDiscConf_MouseLeave" ToolTip="Примеры конгфигурации диска"/>
         <TextBlock x:Name="tbText2" HorizontalAlignment="Left" Margin="28,277,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="14"/>
         <Image x:Name="imDisc" HorizontalAlignment="Left" Height="194" Margin="198,388,0,0" VerticalAlignment="Top" Width="323" ToolTip="Секторы и кластеры на диске"/>
-        <Image x:Name="imDisc2" HorizontalAlignment="Left" Height="65" Margin="238,425,0,0" VerticalAlignment="Top" Width="93" MouseEnter="imDisc2_MouseEnter" MouseLeave="imDisc2_MouseLeave" ToolTip="Сектор"/>
+        <Image x:Name="imDisc2" Stretch="Fill" HorizontalAlignment="Left" Height="86" Margin="203,404,0,0" VerticalAlignment="Top" Width="128" MouseEnter="imDisc2_MouseEnter" MouseLeave="imDisc2_MouseLeave" ToolTip="Сектор"/>
         <Image x:Name="imCluster" HorizontalAlignment="Left" Height="112" Margin="336,470,0,0" VerticalAlignment="Top" Width="185" MouseEnter="imCluster_MouseEnter" MouseLeave="imCluster_MouseLeave" ToolTip="Кластер(4 сектора)"/>
         <Label x:Name="lbNext" Content="Далее" HorizontalAlignment="Left" Margin="552,543,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" MouseEnter="lbNext_MouseEnter" MouseLeave="lbNext_MouseLeave" MouseLeftButtonDown="lbNext_MouseLeftButtonDown"/>
 
