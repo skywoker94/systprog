@@ -1,20 +1,21 @@
 ﻿<Window x:Class="NTFSStruct.fmDriverModel2"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="" Height="700" Width="800" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" Closing="Window_Closing" ResizeMode="NoResize">
+        Title="" Height="700" Width="1105.97" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" Closing="Window_Closing" ResizeMode="NoResize">
     <Grid>
         <Label Content="Многоуровневая модель драйвера" HorizontalAlignment="Left" Margin="24,33,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="24"/>
-        <TextBlock x:Name="tbText" HorizontalAlignment="Left" Margin="36,80,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock x:Name="tbText" HorizontalAlignment="Left" Margin="36,80,0,0" TextWrapping="Wrap" Text="TextBlock" Width="750" VerticalAlignment="Top" FontSize="16"/>
         <Image x:Name="imDriverModel" HorizontalAlignment="Left" Height="451" Margin="10,196,0,0" VerticalAlignment="Top" Width="759"/>
-        <Image x:Name="imProtocol" HorizontalAlignment="Left" Height="47" Margin="280,311,0,0" VerticalAlignment="Top" Width="183" MouseEnter="Image_MouseEnter" ToolTip="Запротоколировать транзакцию" MouseLeave="imProtocol_MouseLeave"/>
-        <Image x:Name="imServiceJournal" HorizontalAlignment="Left" Height="91" Margin="103,287,0,0" VerticalAlignment="Top" Width="172" MouseEnter="imServiceJournal_MouseEnter" MouseLeave="imServiceJournal_MouseLeave" ToolTip="Системный модуль Windows NT, обеспечивающий протоколирование операций записи на диск."/>
-        <Image x:Name="imResetJournal" HorizontalAlignment="Left" Height="271" Margin="0,287,0,0" VerticalAlignment="Top" Width="103" MouseEnter="imResetJournal_MouseEnter" MouseLeave="imResetJournal_MouseLeave" ToolTip="Сброс журнала транзакций"/>
-        <Image x:Name="imManagerCache" HorizontalAlignment="Left" Height="92" Margin="108,429,0,0" VerticalAlignment="Top" Width="172" MouseEnter="imManagerCache_MouseEnter" MouseLeave="imManagerCache_MouseLeave" ToolTip="Системный компонент Windows NT, обеспечивающий общесистемную поддержку кэширования"/>
+        <Image x:Name="imProtocol" Stretch="Fill" HorizontalAlignment="Left" Height="47" Margin="280,311,0,0" VerticalAlignment="Top" Width="183" MouseEnter="Image_MouseEnter" ToolTip="Запротоколировать транзакцию" MouseLeave="imProtocol_MouseLeave"/>
+        <Image x:Name="imServiceJournal" HorizontalAlignment="Left" Height="91" Margin="103,287,0,0" VerticalAlignment="Top" Width="172" MouseEnter="imServiceJournal_MouseEnter" MouseLeave="imServiceJournal_MouseLeave" ToolTip="Системный модуль Windows NT, обеспечивающий протоколирование операций записи на диск." MouseLeftButtonDown="imServiceJournal_MouseLeftButtonDown"/>
+        <Image x:Name="imResetJournal" Stretch="Fill" HorizontalAlignment="Left" Height="271" Margin="0,287,0,0" VerticalAlignment="Top" Width="103" MouseEnter="imResetJournal_MouseEnter" MouseLeave="imResetJournal_MouseLeave" ToolTip="Сброс журнала транзакций"/>
+        <Image x:Name="imManagerCache" HorizontalAlignment="Left" Height="92" Margin="108,429,0,0" VerticalAlignment="Top" Width="172" MouseEnter="imManagerCache_MouseEnter" MouseLeave="imManagerCache_MouseLeave" ToolTip="Системный компонент Windows NT, обеспечивающий общесистемную поддержку кэширования" MouseLeftButtonDown="imManagerCache_MouseLeftButtonDown"/>
         <Image x:Name="imWriteCache" HorizontalAlignment="Left" Height="51" Margin="145,378,0,0" VerticalAlignment="Top" Width="103" MouseEnter="imWriteCache_MouseEnter" MouseLeave="imWriteCache_MouseLeave" ToolTip="Запись в кэш" />
-        <Image x:Name="imManagerVirtualMem" HorizontalAlignment="Left" Height="92" Margin="108,567,0,0" VerticalAlignment="Top" Width="172" MouseEnter="imManagerVirtualMem_MouseEnter" MouseLeave="imManagerVirtualMem_MouseLeave" ToolTip="Часть операционной системы, благодаря которой можно адресовать память большую, чем объем физической памяти"/>
-        <Image x:Name="imResetCache" HorizontalAlignment="Left" Height="41" Margin="145,526,0,0" VerticalAlignment="Top" Width="87" MouseEnter="imResetCache_MouseEnter" MouseLeave="imResetCache_MouseLeave" ToolTip="Доступ к проецируемому файлу или сброс кэша"/>
-        <Image x:Name="imLoadData" HorizontalAlignment="Left" Height="143" Margin="280,378,0,0" VerticalAlignment="Top" Width="252" MouseEnter="imLoadData_MouseEnter" MouseLeave="imLoadData_MouseLeave" ToolTip="Чтение/запись файла"/>
-        <Image x:Name="imLoadFromDisk" HorizontalAlignment="Left" Height="121" Margin="280,526,0,0" VerticalAlignment="Top" Width="287" MouseEnter="imLoadFromDisk_MouseEnter" MouseLeave="imLoadFromDisk_MouseLeave" ToolTip="Загрузка данных с диска в память"/>
+        <Image x:Name="imManagerVirtualMem" HorizontalAlignment="Left" Height="92" Margin="108,567,0,0" VerticalAlignment="Top" Width="172" MouseEnter="imManagerVirtualMem_MouseEnter" MouseLeave="imManagerVirtualMem_MouseLeave" ToolTip="Часть операционной системы, благодаря которой можно адресовать память большую, чем объем физической памяти" MouseLeftButtonDown="imManagerVirtualMem_MouseLeftButtonDown"/>
+        <Image x:Name="imResetCache" Stretch="Fill" HorizontalAlignment="Left" Height="41" Margin="145,526,0,0" VerticalAlignment="Top" Width="87" MouseEnter="imResetCache_MouseEnter" MouseLeave="imResetCache_MouseLeave" ToolTip="Доступ к проецируемому файлу или сброс кэша"/>
+        <Image x:Name="imLoadData" Stretch="Fill" HorizontalAlignment="Left" Height="143" Margin="280,378,0,0" VerticalAlignment="Top" Width="252" MouseEnter="imLoadData_MouseEnter" MouseLeave="imLoadData_MouseLeave" ToolTip="Чтение/запись файла"/>
+        <Image x:Name="imLoadFromDisk" Stretch="Fill" HorizontalAlignment="Left" Height="121" Margin="280,526,0,0" VerticalAlignment="Top" Width="287" MouseEnter="imLoadFromDisk_MouseEnter" MouseLeave="imLoadFromDisk_MouseLeave" ToolTip="Загрузка данных с диска в память"/>
+        <TextBox x:Name="txtExplanation" HorizontalAlignment="Left" Height="614" Margin="824,33,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="266"/>
 
     </Grid>
 </Window>
