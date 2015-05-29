@@ -6,6 +6,7 @@
         <Label Content="Таблица MTF" HorizontalAlignment="Left" Margin="60,33,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
         <Image x:Name="imMTF" HorizontalAlignment="Left" Height="528" Margin="22,104,0,0" VerticalAlignment="Top" Width="648" MouseLeftButtonDown="imMTF_MouseLeftButtonDown" Cursor="Hand"/>
         <Label x:Name="lbInscription" Content="" HorizontalAlignment="Left" Margin="60,69,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbBack" Content="Назад" HorizontalAlignment="Left" Margin="625,38,0,0" VerticalAlignment="Top" FontWeight="Bold" MouseEnter="Label_MouseEnter" MouseLeave="lbBack_MouseLeave" MouseLeftButtonDown="lbBack_MouseLeftButtonDown"/>
 
     </Grid>
 </Window>

@@ -15,6 +15,7 @@
         <Image x:Name="imLPC" Stretch="Fill" HorizontalAlignment="Left" Height="180" Margin="326,374,0,0" VerticalAlignment="Top" Width="79" MouseEnter="imLPC_MouseEnter" MouseLeave="imLPC_MouseLeave" MouseLeftButtonDown="imLPC_MouseLeftButtonDown" Cursor="Hand"/>
         <Image x:Name="imMemoryManager" HorizontalAlignment="Left" Height="180" Margin="405,374,0,0" VerticalAlignment="Top" Width="85" MouseEnter="imMemoryManager_MouseEnter" MouseLeave="imMemoryManager_MouseLeave" Stretch="Fill" MouseLeftButtonDown="imMemoryManager_MouseLeftButtonDown"/>
         <Image x:Name="imCore" Stretch="Fill"  HorizontalAlignment="Left" Height="41" Margin="60,513,0,0" VerticalAlignment="Top" Width="430" MouseEnter="imCore_MouseEnter" MouseLeave="imCore_MouseLeave" MouseLeftButtonDown="imCore_MouseLeftButtonDown"/>
+        <Label x:Name="lbBack" Content="Назад" HorizontalAlignment="Left" Margin="1039,7,0,0" VerticalAlignment="Top" FontWeight="Bold" MouseEnter="Label_MouseEnter" MouseLeave="lbBack_MouseLeave" MouseLeftButtonDown="lbBack_MouseLeftButtonDown"/>
 
     </Grid>
 </Window>

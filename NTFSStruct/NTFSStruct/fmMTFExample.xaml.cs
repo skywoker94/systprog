@@ -79,5 +79,20 @@ namespace NTFSStruct
             fmModelDB form = new fmModelDB();
             form.Show();
         }
+
+        private void Label_MouseEnter(object sender, MouseEventArgs e)
+        {
+            lbBack.Foreground=Brushes.Coral;
+        }
+
+        private void lbBack_MouseLeave(object sender, MouseEventArgs e)
+        {
+            lbBack.Foreground=Brushes.Black;
+        }
+
+        private void lbBack_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            Close();
+        }
     }
 }

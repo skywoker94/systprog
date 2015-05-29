@@ -52,13 +52,13 @@ namespace NTFSStruct
 
         private void Label_MouseEnter(object sender, MouseEventArgs e)
         {
-            /**/
-           // lbPreviousWin.Foreground = Brushes.Coral;
+            lbBack.Foreground=Brushes.Coral;
+           
         }
 
         private void lbPreviousWin_MouseLeave(object sender, MouseEventArgs e)
         {
-         //   lbPreviousWin.Foreground = Brushes.Black;
+          lbBack.Foreground = Brushes.Black;
         }
 
         private void lbPreviousWin_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
@@ -80,6 +80,16 @@ namespace NTFSStruct
                 fmModelNTFS form = new fmModelNTFS();
                 form.Show();
             }
+        }
+
+        private void lbBack_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            Close();
+        }
+
+        private void lbBack_MouseLeave(object sender, MouseEventArgs e)
+        {
+            lbBack.Foreground=Brushes.Black;
         }
     }
 }

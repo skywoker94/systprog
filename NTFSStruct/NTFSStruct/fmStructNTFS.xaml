@@ -8,6 +8,7 @@
 " HorizontalAlignment="Left" Margin="53,53,0,0" VerticalAlignment="Top" FontSize="16" MouseEnter="lbConception_MouseEnter" MouseLeave="lbConception_MouseLeave" MouseLeftButtonDown="lbConception_MouseLeftButtonDown"/>
         <Label x:Name="lbStruct" Content="Структура на диске" HorizontalAlignment="Left" Margin="53,84,0,0" VerticalAlignment="Top" FontSize="16" MouseEnter="lbStruct_MouseEnter" MouseLeave="lbStruct_MouseLeave" MouseLeftButtonDown="lbStruct_MouseLeftButtonDown"/>
         <Label x:Name="lbCatalogStruct" Content="Структура на диске (Каталоги и большие файлы)" HorizontalAlignment="Left" Margin="53,120,0,0" VerticalAlignment="Top" FontSize="16" MouseEnter="lbCatalogStruct_MouseEnter" MouseLeave="lbCatalogStruct_MouseLeave" MouseLeftButtonDown="lbCatalogStruct_MouseLeftButtonDown"/>
+        <Label x:Name="lbBack" Content="Назад" HorizontalAlignment="Left" Margin="400,10,0,0" VerticalAlignment="Top" FontWeight="Bold" MouseEnter="Label_MouseEnter" MouseLeave="lbBack_MouseLeave" MouseLeftButtonDown="lbBack_MouseLeftButtonDown"/>
 
     </Grid>
 </Window>

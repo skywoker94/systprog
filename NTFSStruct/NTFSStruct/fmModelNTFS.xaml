@@ -8,6 +8,7 @@
         <Label x:Name="lbDriverModel" Content="1) Модель драйвера" HorizontalAlignment="Left" Margin="89,249,0,0" VerticalAlignment="Top" FontSize="16" RenderTransformOrigin="0.386,2.508" MouseEnter="lbDriverModel_MouseEnter" MouseLeave="lbDriverModel_MouseLeave" Cursor="Hand" MouseLeftButtonDown="lbDriverModel_MouseLeftButtonDown"/>
         <Label x:Name="lbDataBaseModel" Content="2) Модель базы данных" HorizontalAlignment="Left" Margin="89,285,0,0" VerticalAlignment="Top" FontSize="16" RenderTransformOrigin="0.386,2.508" MouseEnter="lbDataBaseModel_MouseEnter" MouseLeave="lbDataBaseModel_MouseLeave" Cursor="Hand" MouseLeftButtonDown="lbDataBaseModel_MouseLeftButtonDown"/>
         <Label x:Name="lbOOPModel" Content="3) Объектная модель" HorizontalAlignment="Left" Margin="89,321,0,0" VerticalAlignment="Top" FontSize="16" RenderTransformOrigin="0.386,2.508" MouseEnter="lbOOPModel_MouseEnter" MouseLeave="lbOOPModel_MouseLeave" Cursor="Hand" MouseLeftButtonDown="lbOOPModel_MouseLeftButtonDown"/>
+        <Label x:Name="lbBack" Content="Назад" HorizontalAlignment="Left" Margin="788,27,0,0" VerticalAlignment="Top" FontWeight="Bold" MouseEnter="Label_MouseEnter" MouseLeave="lbBack_MouseLeave" MouseLeftButtonDown="lbBack_MouseLeftButtonDown" RenderTransformOrigin="-5.146,0.237"/>
 
     </Grid>
 </Window>

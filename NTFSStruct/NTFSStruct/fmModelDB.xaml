@@ -6,6 +6,7 @@
         <Label Content="Модель базы данных" HorizontalAlignment="Left" Margin="64,32,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
         <TextBlock x:Name="tbText" HorizontalAlignment="Left" Margin="64,68,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="14" Width="700"/>
         <Label x:Name="lbExampleMTF" Content="Пример таблицы MTF" HorizontalAlignment="Left" Margin="64,299,0,0" VerticalAlignment="Top" FontSize="16" MouseEnter="lbExampleMTF_MouseEnter" MouseLeave="lbExampleMTF_MouseLeave" Cursor="Hand" MouseLeftButtonDown="lbExampleMTF_MouseLeftButtonDown"/>
+        <Label x:Name="lbBack" Content="Назад" HorizontalAlignment="Left" Margin="719,14,0,0" VerticalAlignment="Top" FontWeight="Bold" MouseEnter="Label_MouseEnter" MouseLeave="lbBack_MouseLeave" MouseLeftButtonDown="lbBack_MouseLeftButtonDown"/>
 
     </Grid>
 </Window>

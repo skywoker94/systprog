@@ -1,14 +1,14 @@
 ﻿<Window x:Class="NTFSStruct.fmObjectModel"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="" Height="730" Width="1100" ResizeMode="NoResize" Loaded="Window_Loaded_1" Closing="Window_Closing" WindowStartupLocation="CenterScreen">
+        Title="" Height="730" Width="1384.149" ResizeMode="NoResize" Loaded="Window_Loaded_1" Closing="Window_Closing" WindowStartupLocation="CenterScreen">
     <Grid>
         <Label Content="Объектная модель" HorizontalAlignment="Left" Margin="30,22,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
-        <TextBlock x:Name="tbText" HorizontalAlignment="Left" Margin="30,61,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tbText" HorizontalAlignment="Left" Margin="30,61,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="68" Width="1046"/>
         <Image x:Name="imScheme" HorizontalAlignment="Left" Height="506" Margin="163,185,0,0" VerticalAlignment="Top" Width="884"/>
         <Image x:Name="imManneger" HorizontalAlignment="Left" Height="307" Margin="121,185,0,0" VerticalAlignment="Top" Width="389" DragEnter="imManneger_DragEnter" MouseEnter="imManneger_MouseEnter" MouseLeave="imManneger_MouseLeave" ToolTip="Структура данных деспетчера объектов"/>
         <Image x:Name="imNTFS" HorizontalAlignment="Left" Height="320" Margin="510,371,0,0" VerticalAlignment="Top" Width="537" MouseEnter="imNTFS_MouseEnter" MouseLeave="imNTFS_MouseLeave" ToolTip="Структура данных NTFS"/>
-        <Image x:Name="imConrolBlock" HorizontalAlignment="Left" Height="189" Margin="515,455,0,0" VerticalAlignment="Top" Width="160" MouseDown="imConrolBlock_MouseDown" MouseEnter="imConrolBlock_MouseEnter" MouseLeave="imConrolBlock_MouseLeave" ToolTip="Блоки управления потоками"/>
+        <Image x:Name="imConrolBlock" HorizontalAlignment="Left" Height="189" Margin="515,455,0,0" VerticalAlignment="Top" Width="160" MouseDown="imConrolBlock_MouseDown" MouseEnter="imConrolBlock_MouseEnter" MouseLeave="imConrolBlock_MouseLeave" ToolTip="Блоки управления потоками" MouseLeftButtonDown="imConrolBlock_MouseLeftButtonDown"/>
         <Image x:Name="imDataBase" HorizontalAlignment="Left" Height="200" Margin="824,480,-15,0" VerticalAlignment="Top" Width="285" MouseEnter="imDataBase_MouseEnter" MouseLeave="imDataBase_MouseLeave" ToolTip="База данных NTFS (на диске)" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
@@ -19,6 +19,12 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
+        <Label x:Name="lbBack" Content="Назад" HorizontalAlignment="Left" Margin="1308,21,0,0" VerticalAlignment="Top" FontWeight="Bold" MouseEnter="Label_MouseEnter" MouseLeave="lbBack_MouseLeave" MouseLeftButtonDown="lbBack_MouseLeftButtonDown" RenderTransformOrigin="-1.792,0.385"/>
+        <TextBox x:Name="txtExplanation" HorizontalAlignment="Left" Height="622" Margin="1107,52,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="264"/>
+        <Image x:Name="imFileObj" Stretch="Fill" HorizontalAlignment="Left" Height="157" Margin="423,227,0,0" VerticalAlignment="Top" Width="89" MouseEnter="imFileObj_MouseEnter" MouseLeave="imFileObj_MouseLeave" MouseLeftButtonDown="imFileObj_MouseLeftButtonDown"/>
+        <Image x:Name="imProc" Stretch="Fill" HorizontalAlignment="Left" Height="72" Margin="134,189,0,0" VerticalAlignment="Top" Width="89" MouseEnter="imProc_MouseEnter" MouseLeave="imProc_MouseLeave" MouseLeftButtonDown="imProc_MouseLeftButtonDown"/>
+        <Image x:Name="imTable" Stretch="Fill" HorizontalAlignment="Left" Height="187" Margin="265,225,0,0" VerticalAlignment="Top" Width="90" MouseDown="imTable_MouseDown" MouseEnter="imTable_MouseEnter" MouseLeave="imTable_MouseLeave" MouseLeftButtonDown="imTable_MouseLeftButtonDown"/>
+        <Image x:Name="imFileBlock"  HorizontalAlignment="Left" Stretch="Fill" Height="189" Margin="696,455,0,0" VerticalAlignment="Top" Width="100" MouseEnter="Image_MouseEnter" MouseLeave="imFileBlock_MouseLeave" MouseLeftButtonDown="imFileBlock_MouseLeftButtonDown"/>
 
     </Grid>
 </Window>

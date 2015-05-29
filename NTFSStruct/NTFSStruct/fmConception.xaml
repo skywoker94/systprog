@@ -11,6 +11,7 @@
         <Image x:Name="imDisc2" Stretch="Fill" HorizontalAlignment="Left" Height="86" Margin="203,404,0,0" VerticalAlignment="Top" Width="128" MouseEnter="imDisc2_MouseEnter" MouseLeave="imDisc2_MouseLeave" ToolTip="Сектор"/>
         <Image x:Name="imCluster" HorizontalAlignment="Left" Height="112" Margin="336,470,0,0" VerticalAlignment="Top" Width="185" MouseEnter="imCluster_MouseEnter" MouseLeave="imCluster_MouseLeave" ToolTip="Кластер(4 сектора)"/>
         <Label x:Name="lbNext" Content="Далее" HorizontalAlignment="Left" Margin="552,543,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" MouseEnter="lbNext_MouseEnter" MouseLeave="lbNext_MouseLeave" MouseLeftButtonDown="lbNext_MouseLeftButtonDown"/>
+        <Label x:Name="lbBack" Content="Назад" HorizontalAlignment="Left" Margin="639,10,0,0" VerticalAlignment="Top" FontWeight="Bold" MouseEnter="Label_MouseEnter" MouseLeave="lbBack_MouseLeave" MouseLeftButtonDown="lbBack_MouseLeftButtonDown"/>
 
     </Grid>
 </Window>

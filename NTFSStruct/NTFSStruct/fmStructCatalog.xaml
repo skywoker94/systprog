@@ -9,6 +9,7 @@
         <Image x:Name="imBigCatalog" HorizontalAlignment="Left" Height="196" Margin="25,235,0,0" VerticalAlignment="Top" Width="659" MouseEnter="imBigCatalog_MouseEnter" MouseLeave="imBigCatalog_MouseLeave" ToolTip="Файловая запись для большего католога с нерезидентным индексом имен файлов"/>
         <Image x:Name="imIndexBuf" Height="65" Margin="201,366,52,0" VerticalAlignment="Top" MouseEnter="imIndexBuf_MouseEnter" MouseLeave="imIndexBuf_MouseLeave" Stretch="Fill" ToolTip="Индексные буфера(index bufers)"/>
         <Image x:Name="imVirt" HorizontalAlignment="Left" Height="215" Margin="25,446,0,0" VerticalAlignment="Top" Width="659" MouseEnter="Image_MouseEnter" MouseLeave="imVirt_MouseLeave" ToolTip="Отображение VCN-LCN для нерезидентного атрибута данных"/>
+        <Label x:Name="lbBack" Content="Назад" HorizontalAlignment="Left" Margin="630,25,0,0" VerticalAlignment="Top" FontWeight="Bold" MouseEnter="Label_MouseEnter" MouseLeave="lbBack_MouseLeave" MouseLeftButtonDown="lbBack_MouseLeftButtonDown"/>
 
     </Grid>
 </Window>

@@ -38,6 +38,7 @@
                    FontFamily="Georgia" FontSize="14" TextWrapping="Wrap"/>
             </ToolTipService.ToolTip>
         </Image>
+        <Label x:Name="lbBack" Content="Назад" HorizontalAlignment="Left" Margin="639,15,0,0" VerticalAlignment="Top" FontWeight="Bold" MouseEnter="Label_MouseEnter" MouseLeave="lbBack_MouseLeave" MouseLeftButtonDown="lbBack_MouseLeftButtonDown"/>
 
     </Grid>
 </Window>

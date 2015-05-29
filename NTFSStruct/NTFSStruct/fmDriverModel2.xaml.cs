@@ -135,7 +135,7 @@ namespace NTFSStruct
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            fmModelNTFS form = new fmModelNTFS();
+            fmDriverModel form = new fmDriverModel();
             form.Show();
         }
 
@@ -153,6 +153,21 @@ namespace NTFSStruct
         private void imManagerVirtualMem_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             txtExplanation.Text="Менеджер виртуальной памяти (далее просто «менеджер памяти») — часть операционной системы, благодаря которой можно адресовать память большую, чем объем физической памяти (ОЗУ).Благодаря виртуальной памяти можно запускать множество ресурсоёмких приложений, требующих большого объёма ОЗУ. Максимальный объём виртуальной памяти, который можно получить, используя 24-битную адресацию, — 16 мегабайт. С помощью 32-битной адресации можно адресовать до 4 ГБ виртуальной памяти. А 64-битная адресация позволяет работать уже с 18 эксабайтами памяти.";
+        }
+
+        private void Label_MouseEnter(object sender, MouseEventArgs e)
+        {
+            lbBack.Foreground=Brushes.Coral;
+        }
+
+        private void lbBack_MouseLeave(object sender, MouseEventArgs e)
+        {
+            lbBack.Foreground=Brushes.Black;
+        }
+
+        private void lbBack_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            Close();
         }
 
     }

@@ -16,6 +16,7 @@
         <Image x:Name="imLoadData" Stretch="Fill" HorizontalAlignment="Left" Height="143" Margin="280,378,0,0" VerticalAlignment="Top" Width="252" MouseEnter="imLoadData_MouseEnter" MouseLeave="imLoadData_MouseLeave" ToolTip="Чтение/запись файла"/>
         <Image x:Name="imLoadFromDisk" Stretch="Fill" HorizontalAlignment="Left" Height="121" Margin="280,526,0,0" VerticalAlignment="Top" Width="287" MouseEnter="imLoadFromDisk_MouseEnter" MouseLeave="imLoadFromDisk_MouseLeave" ToolTip="Загрузка данных с диска в память"/>
         <TextBox x:Name="txtExplanation" HorizontalAlignment="Left" Height="614" Margin="824,33,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="266"/>
+        <Label x:Name="lbBack" Content="Назад" HorizontalAlignment="Left" Margin="1045,10,0,0" VerticalAlignment="Top" FontWeight="Bold" MouseEnter="Label_MouseEnter" MouseLeave="lbBack_MouseLeave" MouseLeftButtonDown="lbBack_MouseLeftButtonDown"/>
 
     </Grid>
 </Window>
