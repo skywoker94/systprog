@@ -9,7 +9,7 @@
         <Image x:Name="imManneger" HorizontalAlignment="Left" Height="307" Margin="121,185,0,0" VerticalAlignment="Top" Width="389" DragEnter="imManneger_DragEnter" MouseEnter="imManneger_MouseEnter" MouseLeave="imManneger_MouseLeave" ToolTip="Структура данных деспетчера объектов"/>
         <Image x:Name="imNTFS" HorizontalAlignment="Left" Height="320" Margin="510,371,0,0" VerticalAlignment="Top" Width="537" MouseEnter="imNTFS_MouseEnter" MouseLeave="imNTFS_MouseLeave" ToolTip="Структура данных NTFS"/>
         <Image x:Name="imConrolBlock" HorizontalAlignment="Left" Height="189" Margin="515,455,0,0" VerticalAlignment="Top" Width="160" MouseDown="imConrolBlock_MouseDown" MouseEnter="imConrolBlock_MouseEnter" MouseLeave="imConrolBlock_MouseLeave" ToolTip="Блоки управления потоками" MouseLeftButtonDown="imConrolBlock_MouseLeftButtonDown"/>
-        <Image x:Name="imDataBase" HorizontalAlignment="Left" Height="200" Margin="824,480,-15,0" VerticalAlignment="Top" Width="285" MouseEnter="imDataBase_MouseEnter" MouseLeave="imDataBase_MouseLeave" ToolTip="База данных NTFS (на диске)" RenderTransformOrigin="0.5,0.5">
+        <Image x:Name="imDataBase" HorizontalAlignment="Left" Height="200" Margin="824,480,-15,0" VerticalAlignment="Top" Width="285" MouseEnter="imDataBase_MouseEnter" MouseLeave="imDataBase_MouseLeave" ToolTip="База данных NTFS (на диске)" RenderTransformOrigin="0.5,0.5" MouseLeftButtonDown="imDataBase_MouseLeftButtonDown">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
