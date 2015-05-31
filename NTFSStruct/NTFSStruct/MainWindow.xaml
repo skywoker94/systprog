@@ -3,7 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="" Height="245.895" Width="405.597" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
-        <Label Content="Файловая система NTFS" HorizontalAlignment="Left" Margin="52,0,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <Label Content="Файловая система NTFS" HorizontalAlignment="Left" Margin="52,0,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" >
+            <Label.Effect>
+                <DropShadowEffect BlurRadius="14"/>
+            </Label.Effect>
+        </Label>
         <Label x:Name="lbIntroduction" Content="Введение" HorizontalAlignment="Left" Margin="153,72,0,0" VerticalAlignment="Top" FontSize="18" Cursor="Hand" MouseEnter="lbStart_MouseEnter" MouseLeave="lbStart_MouseLeave" MouseLeftButtonDown="lbIntroduction_MouseLeftButtonDown"/>
         <Label x:Name="lbModels" Content="Модели NTFS" HorizontalAlignment="Left" Margin="136,111,0,0" VerticalAlignment="Top" FontSize="18" Cursor="Hand" MouseEnter="lbModels_MouseEnter" MouseLeave="lbModels_MouseLeave" MouseLeftButtonDown="lbModels_MouseLeftButtonDown"/>
         <Label x:Name="lbNTFSStruct" Content="Структура файловой системы" HorizontalAlignment="Left" Margin="71,145,0,0" VerticalAlignment="Top" FontSize="18" Cursor="Hand" MouseEnter="lbNTFSStruct_MouseEnter" MouseLeave="lbNTFSStruct_MouseLeave" MouseLeftButtonDown="lbNTFSStruct_MouseLeftButtonDown"/>

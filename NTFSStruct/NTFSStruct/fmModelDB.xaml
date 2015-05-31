@@ -3,7 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="" Height="397.015" Width="800" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" Closed="Window_Closed" ResizeMode="NoResize" Closing="Window_Closing">
     <Grid>
-        <Label Content="Модель базы данных" HorizontalAlignment="Left" Margin="64,32,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Модель базы данных" HorizontalAlignment="Left" Margin="64,32,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold">
+            <Label.Effect>
+                <DropShadowEffect BlurRadius="14"/>
+            </Label.Effect>
+        </Label>
         <TextBlock x:Name="tbText" HorizontalAlignment="Left" Margin="64,68,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="14" Width="700"/>
         <Label x:Name="lbExampleMTF" Content="Пример таблицы MTF" HorizontalAlignment="Left" Margin="64,299,0,0" VerticalAlignment="Top" FontSize="16" MouseEnter="lbExampleMTF_MouseEnter" MouseLeave="lbExampleMTF_MouseLeave" Cursor="Hand" MouseLeftButtonDown="lbExampleMTF_MouseLeftButtonDown"/>
         <Label x:Name="lbBack" Content="Назад" HorizontalAlignment="Left" Margin="719,14,0,0" VerticalAlignment="Top" FontWeight="Bold" MouseEnter="Label_MouseEnter" MouseLeave="lbBack_MouseLeave" MouseLeftButtonDown="lbBack_MouseLeftButtonDown"/>

@@ -3,7 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="" Height="700" Width="700" Loaded="Window_Loaded" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Closed="Window_Closed" Closing="Window_Closing">
     <Grid>
-        <Label Content="Таблица MTF" HorizontalAlignment="Left" Margin="60,33,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Таблица MTF" HorizontalAlignment="Left" Margin="60,33,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold">
+            <Label.Effect>
+                <DropShadowEffect BlurRadius="14"/>
+            </Label.Effect>
+        </Label>
         <Image x:Name="imMTF" HorizontalAlignment="Left" Height="528" Margin="22,104,0,0" VerticalAlignment="Top" Width="648" MouseLeftButtonDown="imMTF_MouseLeftButtonDown" Cursor="Hand"/>
         <Label x:Name="lbInscription" Content="" HorizontalAlignment="Left" Margin="60,69,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lbBack" Content="Назад" HorizontalAlignment="Left" Margin="625,38,0,0" VerticalAlignment="Top" FontWeight="Bold" MouseEnter="Label_MouseEnter" MouseLeave="lbBack_MouseLeave" MouseLeftButtonDown="lbBack_MouseLeftButtonDown"/>

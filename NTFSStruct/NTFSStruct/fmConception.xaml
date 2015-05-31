@@ -3,7 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="" Height="637.551" Width="700" ResizeMode="NoResize" Loaded="Window_Loaded" Closing="Window_Closing" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Label Content="Понятие и термины NTFS" HorizontalAlignment="Left" Margin="28,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.473,0.499" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Понятие и термины NTFS" HorizontalAlignment="Left" Margin="28,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.473,0.499" FontSize="16" FontWeight="Bold">
+            <Label.Effect>
+                <DropShadowEffect BlurRadius="14"/>
+            </Label.Effect>
+        </Label>
         <TextBlock x:Name="tbText" HorizontalAlignment="Left" Margin="28,46,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="14"/>
         <Image x:Name="imDiscConf" HorizontalAlignment="Left" Height="131" Margin="203,128,0,0" VerticalAlignment="Top" Width="276" Loaded="imDiscConf_Loaded" MouseEnter="imDiscConf_MouseEnter" MouseLeave="imDiscConf_MouseLeave" ToolTip="Примеры конгфигурации диска"/>
         <TextBlock x:Name="tbText2" HorizontalAlignment="Left" Margin="28,277,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="14"/>

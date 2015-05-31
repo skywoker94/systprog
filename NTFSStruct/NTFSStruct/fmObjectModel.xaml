@@ -3,7 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="" Height="730" Width="1384.149" ResizeMode="NoResize" Loaded="Window_Loaded_1" Closing="Window_Closing" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Label Content="Объектная модель" HorizontalAlignment="Left" Margin="30,22,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Объектная модель" HorizontalAlignment="Left" Margin="30,22,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold">
+            <Label.Effect>
+                <DropShadowEffect BlurRadius="14"/>
+            </Label.Effect>
+        </Label>
         <TextBlock x:Name="tbText" HorizontalAlignment="Left" Margin="30,61,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="68" Width="1046"/>
         <Image x:Name="imScheme" HorizontalAlignment="Left" Height="506" Margin="163,185,0,0" VerticalAlignment="Top" Width="884"/>
         <Image x:Name="imManneger" HorizontalAlignment="Left" Height="307" Margin="121,185,0,0" VerticalAlignment="Top" Width="389" DragEnter="imManneger_DragEnter" MouseEnter="imManneger_MouseEnter" MouseLeave="imManneger_MouseLeave" ToolTip="Структура данных деспетчера объектов"/>

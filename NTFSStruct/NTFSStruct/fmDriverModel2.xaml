@@ -3,7 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="" Height="700" Width="1105.97" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" Closing="Window_Closing" ResizeMode="NoResize">
     <Grid>
-        <Label Content="Многоуровневая модель драйвера" HorizontalAlignment="Left" Margin="24,33,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="24"/>
+        <Label Content="Многоуровневая модель драйвера" HorizontalAlignment="Left" Margin="24,33,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="24">
+            <Label.Effect>
+                <DropShadowEffect BlurRadius="14"/>
+            </Label.Effect>
+        </Label>
         <TextBlock x:Name="tbText" HorizontalAlignment="Left" Margin="36,80,0,0" TextWrapping="Wrap" Text="TextBlock" Width="750" VerticalAlignment="Top" FontSize="16"/>
         <Image x:Name="imDriverModel" HorizontalAlignment="Left" Height="451" Margin="10,196,0,0" VerticalAlignment="Top" Width="759"/>
         <Image x:Name="imProtocol" Stretch="Fill" HorizontalAlignment="Left" Height="47" Margin="280,311,0,0" VerticalAlignment="Top" Width="183" MouseEnter="Image_MouseEnter" ToolTip="Запротоколировать транзакцию" MouseLeave="imProtocol_MouseLeave"/>
@@ -15,7 +19,7 @@
         <Image x:Name="imResetCache" Stretch="Fill" HorizontalAlignment="Left" Height="41" Margin="145,526,0,0" VerticalAlignment="Top" Width="87" MouseEnter="imResetCache_MouseEnter" MouseLeave="imResetCache_MouseLeave" ToolTip="Доступ к проецируемому файлу или сброс кэша"/>
         <Image x:Name="imLoadData" Stretch="Fill" HorizontalAlignment="Left" Height="143" Margin="280,378,0,0" VerticalAlignment="Top" Width="252" MouseEnter="imLoadData_MouseEnter" MouseLeave="imLoadData_MouseLeave" ToolTip="Чтение/запись файла"/>
         <Image x:Name="imLoadFromDisk" Stretch="Fill" HorizontalAlignment="Left" Height="121" Margin="280,526,0,0" VerticalAlignment="Top" Width="287" MouseEnter="imLoadFromDisk_MouseEnter" MouseLeave="imLoadFromDisk_MouseLeave" ToolTip="Загрузка данных с диска в память"/>
-        <TextBox x:Name="txtExplanation" HorizontalAlignment="Left" Height="614" Margin="824,33,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="266"/>
+        <TextBox x:Name="txtExplanation" HorizontalAlignment="Left" Height="614" Margin="824,33,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="266"/>
         <Label x:Name="lbBack" Content="Назад" HorizontalAlignment="Left" Margin="1045,10,0,0" VerticalAlignment="Top" FontWeight="Bold" MouseEnter="Label_MouseEnter" MouseLeave="lbBack_MouseLeave" MouseLeftButtonDown="lbBack_MouseLeftButtonDown"/>
 
     </Grid>

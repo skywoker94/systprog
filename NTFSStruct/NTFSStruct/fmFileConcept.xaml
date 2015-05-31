@@ -3,7 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="" Height="700" Width="700" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Loaded="Window_Loaded" Closing="Window_Closing">
     <Grid>
-        <Label Content="Понятие и термины NTFS" HorizontalAlignment="Left" Margin="28,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.473,0.499" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Понятие и термины NTFS" HorizontalAlignment="Left" Margin="28,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.473,0.499" FontSize="16" FontWeight="Bold">
+            <Label.Effect>
+                <DropShadowEffect BlurRadius="14"/>
+            </Label.Effect>
+        </Label>
         <TextBlock x:Name="tbText" HorizontalAlignment="Left" Margin="28,46,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
         <Image x:Name="imFileRef" HorizontalAlignment="Left" Height="49" Margin="28,124,0,0" VerticalAlignment="Top" Width="638"/>
         <Image x:Name="im" HorizontalAlignment="Left" Height="49" Margin="263,124,0,0" VerticalAlignment="Top" Width="394" MouseEnter="im_MouseEnter" MouseLeave="im_MouseLeave" ToolTip="Номер файла"/>

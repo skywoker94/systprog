@@ -4,7 +4,11 @@
         Title="" Height="502.858" Width="700" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" Closing="Window_Closing">
     <Grid>
         <TextBlock x:Name="tbText" HorizontalAlignment="Left" Margin="31,63,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
-        <Label Content="Структура на диске" HorizontalAlignment="Left" Margin="29,28,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Структура на диске" HorizontalAlignment="Left" Margin="29,28,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold">
+            <Label.Effect>
+                <DropShadowEffect BlurRadius="14"/>
+            </Label.Effect>
+        </Label>
         <Image x:Name="imResAtr" HorizontalAlignment="Left" Height="155" Margin="29,199,0,0" VerticalAlignment="Top" Width="644" MouseEnter="imResAtr_MouseEnter" MouseLeave="imResAtr_MouseLeave" ToolTip="Заголовок и значение резидентного атрибута"/>
         <Image x:Name="imResAtr2" HorizontalAlignment="Left" Height="243" Margin="120,199,0,0" VerticalAlignment="Top" Width="548" MouseEnter="imResAtr2_MouseEnter" MouseLeave="imResAtr2_MouseLeave" ToolTip="Заголовок и значение резидентного атрибута"/>
         <Label x:Name="lbBack" Content="Назад" HorizontalAlignment="Left" Margin="623,33,0,0" VerticalAlignment="Top" FontWeight="Bold" MouseEnter="Label_MouseEnter" MouseLeave="lbBack_MouseLeave" MouseLeftButtonDown="lbBack_MouseLeftButtonDown"/>
