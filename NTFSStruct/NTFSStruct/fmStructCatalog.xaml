@@ -14,7 +14,7 @@
         <Image x:Name="imIndexBuf" Height="65" Margin="201,366,272,0" VerticalAlignment="Top" MouseEnter="imIndexBuf_MouseEnter" MouseLeave="imIndexBuf_MouseLeave" Stretch="Fill" ToolTip="Индексные буферы(index bufers)" MouseLeftButtonDown="imIndexBuf_MouseLeftButtonDown"/>
         <Image x:Name="imVirt" HorizontalAlignment="Left" Height="215" Margin="25,446,0,0" VerticalAlignment="Top" Width="659" MouseEnter="Image_MouseEnter" MouseLeave="imVirt_MouseLeave" ToolTip="Отображение VCN-LCN для нерезидентного атрибута данных" MouseLeftButtonDown="imVirt_MouseLeftButtonDown"/>
         <Label x:Name="lbBack" Content="Назад" HorizontalAlignment="Left" Margin="887,30,0,0" VerticalAlignment="Top" FontWeight="Bold" MouseEnter="Label_MouseEnter" MouseLeave="lbBack_MouseLeave" MouseLeftButtonDown="lbBack_MouseLeftButtonDown"/>
-        <TextBox x:Name="txtExplanation" HorizontalAlignment="Left" Height="572" Margin="702,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230"/>
+        <TextBox x:Name="txtExplanation" IsReadOnly="True" HorizontalAlignment="Left" Height="572" Margin="702,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230"/>
 
     </Grid>
 </Window>

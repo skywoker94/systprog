@@ -24,7 +24,7 @@
             </Image.RenderTransform>
         </Image>
         <Label x:Name="lbBack" Content="Назад" HorizontalAlignment="Left" Margin="1308,21,0,0" VerticalAlignment="Top" FontWeight="Bold" MouseEnter="Label_MouseEnter" MouseLeave="lbBack_MouseLeave" MouseLeftButtonDown="lbBack_MouseLeftButtonDown" RenderTransformOrigin="-1.792,0.385"/>
-        <TextBox x:Name="txtExplanation" HorizontalAlignment="Left" Height="622" Margin="1107,52,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="264"/>
+        <TextBox x:Name="txtExplanation" IsReadOnly="True" HorizontalAlignment="Left" Height="622" Margin="1107,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="264"/>
         <Image x:Name="imFileObj" Stretch="Fill" HorizontalAlignment="Left" Height="157" Margin="423,227,0,0" VerticalAlignment="Top" Width="89" MouseEnter="imFileObj_MouseEnter" MouseLeave="imFileObj_MouseLeave" MouseLeftButtonDown="imFileObj_MouseLeftButtonDown"/>
         <Image x:Name="imProc" Stretch="Fill" HorizontalAlignment="Left" Height="72" Margin="134,189,0,0" VerticalAlignment="Top" Width="89" MouseEnter="imProc_MouseEnter" MouseLeave="imProc_MouseLeave" MouseLeftButtonDown="imProc_MouseLeftButtonDown"/>
         <Image x:Name="imTable" Stretch="Fill" HorizontalAlignment="Left" Height="187" Margin="265,225,0,0" VerticalAlignment="Top" Width="90" MouseDown="imTable_MouseDown" MouseEnter="imTable_MouseEnter" MouseLeave="imTable_MouseLeave" MouseLeftButtonDown="imTable_MouseLeftButtonDown"/>
